@@ -11,7 +11,7 @@ import rclpy
 from rclpy.node import Node
 from statistics import mean
 from sensor_msgs.msg import TimeReference
-from geometry_msgs.msg import Vector3Stamped  # geometry_msgs接口
+from geometry_msgs.msg import Vector3Stamped  # geome
 
 class IMUSubscribe(Node):
     def __init__(self, name):
